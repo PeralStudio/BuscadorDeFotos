@@ -29,7 +29,7 @@ const Formulario = ({guardarBusqueda}) => {
                     <input
                         type="text"
                         className="form-control form-control-lg"
-                        placeholder="Ejemplo: futbol,café,sol"
+                        placeholder="Ejemplo: futbol, café, playa"
                         onChange={ e => guardarTermino(e.target.value)}
                     />
                 </div>
