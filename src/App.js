@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="container">
       <div className="jumbotron">
-          <p className="lead text-center"><h1>Buscador de Imágenes</h1></p>
+          <p className="lead text-center"><h1>Buscador de Imágenes<br/><br/></h1></p>
 
           <Formulario 
             guardarBusqueda={guardarBusqueda}
@@ -83,6 +83,7 @@ function App() {
             >Siguiente &raquo;</button>
           ) }
       </div>
+      <br/><br/>
     </div>
   );
 }
